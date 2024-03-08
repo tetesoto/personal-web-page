@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tete Soto ICS4U1-1</title>
+    <style>
+        body{
+            color:#BEC5C3;
+            font-family: "Cormorant Garamond", serif;
+            background-color: rgb(24, 20, 27);
+            margin: 1%;
+            font-size: large;
+        }
+
+        p{
+            margin: 1%;
+        }
+
+        a:visited{
+            color: #e6749a;
+        }   
+
+        video{
+            padding: 2%;
+            background-color: #495755;
+        }
+
+        img{
+            height: 300px;
+            width: auto;
+            margin: 1%;
+            padding: 1%;
+            background-color: #495755;
+        }
+
+        div.column{
+            float: left;
+            width: 33.33%;
+            align-items: center;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        /*There has to be a better way to made headers that dont have a margin of 1000% but alas agh*/
+        div.hn{
+            margin: 1.5%;
+        }
+
+        div.row:after {
+            visibility: hidden; display: block; font-size: 0; content:''; clear: both; height: 0; 
+        }
+        
+
+    </style>
+</head>
+<body>
+    <section>
+        <header>
+            <h1>Tete Soto Portfolio</h1>
+            <h3>It's pronounced: [teɪ teɪ] <br> (She/They)</h3>
+        </header>
+    </section>
+
+    <hr>
+
+    <div>
+        <section>
+            <h2>About Me</h2>
+            <p>Hi! My name is Tete and I'm a student at WTCS. I've been interested in tech for as long as I can remember, and will be going into electromechanical eng this coming fall. I don't have a set goal past finishing my education, but I think it would be nice to work on games controllers, specifically focused on accessiblity.</p>
+        </section>   
+    </div>
+
+    <div>
+        <section>
+        <h2>My Work</h2>
+        <div class="co-op">
+            <h3>Publicis Media Co-op</h3>
+            <img src="Assets/co-opSelfie.png" alt="A picture of me standing with my coworker and supervisor at my co op">
+            <p>During my first semester of grade 11, I took a co-op as an IT assistant at one of the largest advertising companies in the world, Publicis Media. Over the duration of my placement I helped image and organize the group's computer systems.</p> 
+        </div>
+
+        <div>
+            <h3>3D Mapping</h3>
+            <img src="Assets/154045.jfif" alt="A picture of my custom trackmania map. It is the main route from the Dorado map taken from overwatch floating in a void.">
+            <p>Recently I have made ports of Overwatch maps in the game Trackmania2020, pictured above is the map <a href="https://trackmania.exchange/maps/154045/literally-just-meshripped-dorado">Dorado.</a> The models are datamined from overwatch itself, but I had to remake the textures, placement, sizing and UV mapping for each section of track. Thus far I only have the basic routes, but i'm looking to include more of the original scenery in future projects. Messing with 3D modeling is something I enjoy, and mapping is my favourite application of the skill.</p>
+        </div>
+        
+        <div>
+            <h3>Visual Effects</h3>
+            <div class="row">                
+                <div class="column">
+                    <div class="hn">Original</div>
+                    <video src="Assets/microwave_unedited.mp4" controls style="width: 95%;">
+                    This is a video of a microwave with crosses drawn on the window. The microwave does not have an lcd screen.
+                    </video>
+                </div>
+                <div class="column">
+                    <div class="hn">Edited</div>
+                    <video src="Assets/microwave_captcha.mp4" controls style="width: 95%;">
+                    This is the same video, edited to look like the microwave is displaying a captcha on the screen.
+                    </video>
+                </div>
+                <div class="column">
+                    <div class="hn">Edited w/ sound</div>
+                    <video src="Assets/microwave_bit.mp4" controls style="width: 95%;">
+                    This is the same video, edited to look like the microwave is displaying a music video, and playing tinny sound.
+                    </video>
+                </div>
+            </div>
+            <p>I also enjoy visual effects, recently I played with the idea of making my microwave at home look like a smart microwave for my english culminating as a hook. I am rather proud of the results. My video editor of choice is Sony Vegas Pro (19)</p>            
+            </div>
+        </section>
+    </div>
+    
+    <hr>   
+    <section>
+        <footer>
+        Email: <a href="mailto:tete.soto@student.tdsb.on.ca">tete.soto@student.tdsb.on.ca</a> | 2024-02-23
+        </footer>
+    </section>
+</body>
+</html>
